@@ -29,15 +29,14 @@ const DUMMY_MEALS = [
 ];
 
 const AvaliableMeals = () => {
-  const mealsList = DUMMY_MEALS.map((meal) => <li>{meal.name} </li>);
+  const mealsList = DUMMY_MEALS.map(meal => <li>{meal.name} </li>);
 
-  return (
-    <section className={classes.meals}>
-      <Card>
+  return <section className={classes.meals}>
+        <Card>
         <ul>{mealsList}</ul>
       </Card>
     </section>
-  );
+  
 };
 
 export default AvaliableMeals;
