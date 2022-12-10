@@ -5,16 +5,15 @@ import Cart from "./components/Cart/Cart";
 import { useState } from "react";
 
 function App() {
-
   const [cartIsShow, setCartIsShown] = useState(false);
 
   const showCartHandler = () => {
     setCartIsShown(true);
-  }
+  };
 
   const hideCartHandler = () => {
     setCartIsShown(false);
-  }
+  };
 
   return (
     <Fragment>
