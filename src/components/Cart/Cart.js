@@ -5,8 +5,8 @@ const Cart = (props) => {
     
   const cartItems = (
     <ul className={classes["cart-items"]}>
-      {[{ id: "c1", name: "sushi", amount: 12.99 }].map((item) => (
-        <li>{item.name}</li>
+      {[{ id: Math.random().toString(), name: "sushi", amount: 12.99,  }].map((item) => (
+        <li key={item.id}>{item.name}</li>
       ))}
     </ul>
   );
