@@ -35,6 +35,7 @@ const DUMMY_MEALS = [
   }
 ];
 
+
 const AvaliableMeals = () => {
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealItem 
