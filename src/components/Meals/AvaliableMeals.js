@@ -28,9 +28,9 @@ const DUMMY_MEALS = [
     price: 18.99,
   },
   {
-    id: "m4",
+    id: "m5",
     name: "Lasagna",
-    description: "fat, delicious",
+    description: "Fat and delicious",
     price: 25.40,
   }
 ];
