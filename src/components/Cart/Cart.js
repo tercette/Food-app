@@ -8,9 +8,7 @@ import Checkout from "./Checkout";
 const Cart = (props) => {
   const cartCtx = useContext(CartContext);
   const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
-
   const [isCheckOut, setIsCheckOut] = useState(false);
-
   const hasItems = cartCtx.items.length > 0;
 
   const cartItemRemoveHandler = (id) => {
